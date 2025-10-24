@@ -1,0 +1,10 @@
+
+fruits = ["apple", "banana", "orange", "apple", "kiwi", "banana"]
+unique_fruits = set(fruits)
+fruit_counts = {}
+for fruit in fruits:
+    fruit_counts[fruit] = fruits.count(fruit)
+
+print("Original list:", fruits)
+print("Unique fruits:", unique_fruits)
+print("Fruit counts:", fruit_counts)
